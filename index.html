@@ -7,14 +7,15 @@
     <meta name="description" content="Pathfinder">
     <meta name="keywords" content="RPG,Pathfinder">
     <meta name="author" content="Cody">
+
     <title>Butte Web Development | Intro to HTML and CSS | Pathfinder</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg bg-light">
+<body class="bg-dark p-4">
+    <nav class="navbar navbar-expand-lg bg-light border border-2">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Pathfinder</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,14 +71,14 @@
         
         <h1>Header</h1>
     </header> -->
-    <main>
+    <main class="bg-secondary p-3">
         <!-- first page -->
         <div class="row">
             <!-- left col -->
-            <div class="col-6">
+            <div class="col-lg-9 col-sm-12">
                 <div class="row">
                     <!-- Ability -->
-                    <section class="col-6"> 
+                    <section class="col-lg-6 col-sm-12"> 
                         <table class="table">
                             <thead>
                                 <tr>
@@ -207,7 +208,7 @@
                         </table>
                     </section>
                     <!-- HP -->
-                    <section class="col-6">
+                    <section class="col-lg-6 col-sm-12 mb-sm-4">
                         <div class="row">
                             <div class="col">
                                 <label for="formGroupExampleInput" class="form-label">Example label</label>
@@ -254,20 +255,348 @@
                     <option value="2">Short Sword</option>
                     <option value="3">Dagger</option>
                     <option value="4">Staff</option>
+                    <option selected>Weapons</option>
+                    <option value="1">Long Sword</option>
+                    <option value="2">Short Sword</option>
+                    <option value="3">Dagger</option>
+                    <option value="4">Staff</option>
+                    <option selected>Weapons</option>
+                    <option value="1">Long Sword</option>
+                    <option value="2">Short Sword</option>
+                    <option value="3">Dagger</option>
+                    <option value="4">Staff</option>
+                </select>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Weapons</option>
+                    <option value="1">Long Sword</option>
+                    <option value="2">Short Sword</option>
+                    <option value="3">Dagger</option>
+                    <option value="4">Staff</option>
+                    <option selected>Weapons</option>
+                    <option value="1">Long Sword</option>
+                    <option value="2">Short Sword</option>
+                    <option value="3">Dagger</option>
+                    <option value="4">Staff</option>
+                    <option selected>Weapons</option>
+                    <option value="1">Long Sword</option>
+                    <option value="2">Short Sword</option>
+                    <option value="3">Dagger</option>
+                    <option value="4">Staff</option>
+                </select>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Weapons</option>
+                    <option value="1">Long Sword</option>
+                    <option value="2">Short Sword</option>
+                    <option value="3">Dagger</option>
+                    <option value="4">Staff</option>
+                    <option selected>Weapons</option>
+                    <option value="1">Long Sword</option>
+                    <option value="2">Short Sword</option>
+                    <option value="3">Dagger</option>
+                    <option value="4">Staff</option>
+                    <option selected>Weapons</option>
+                    <option value="1">Long Sword</option>
+                    <option value="2">Short Sword</option>
+                    <option value="3">Dagger</option>
+                    <option value="4">Staff</option>
+                </select>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Weapons</option>
+                    <option value="1">Long Sword</option>
+                    <option value="2">Short Sword</option>
+                    <option value="3">Dagger</option>
+                    <option value="4">Staff</option>
+                    <option selected>Weapons</option>
+                    <option value="1">Long Sword</option>
+                    <option value="2">Short Sword</option>
+                    <option value="3">Dagger</option>
+                    <option value="4">Staff</option>
+                    <option selected>Weapons</option>
+                    <option value="1">Long Sword</option>
+                    <option value="2">Short Sword</option>
+                    <option value="3">Dagger</option>
+                    <option value="4">Staff</option>
                 </select>
             </div>
 
             <!-- right col -->
-            <div class="col-6">
+            <div class="col-3">
                 <section class="col">
                     <h2>Skills</h2>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1">
-                        Default checkbox
+                        <input class="form-check-input" type="checkbox" value="" id="Acrobatics">
+                        <label class="form-check-label" for="Acrobatics">
+                            Acrobatics
                         </label>
                     </div>
                 </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Appraise">
+                        <label class="form-check-label" for="Appraise">
+                            Appraise
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Bluff">
+                        <label class="form-check-label" for="Bluff">
+                            Bluff
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Climb">
+                        <label class="form-check-label" for="Climb">
+                            Climb
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Craft">
+                        <label class="form-check-label" for="Craft">
+                            Craft
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Diplomacy">
+                        <label class="form-check-label" for="Diplomacy">
+                            Diplomacy
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Disable Device">
+                        <label class="form-check-label" for="Disable Device">
+                            Disable Device
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Disguise">
+                        <label class="form-check-label" for="Disguise">
+                            Disguise
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Escape Artist">
+                        <label class="form-check-label" for="Escape Artist">
+                            Escape Artist
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Fly">
+                        <label class="form-check-label" for="Fly">
+                            Fly
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Handle Animal">
+                        <label class="form-check-label" for="Handle Animal">
+                            Handle Animal
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Heal">
+                        <label class="form-check-label" for="Heal">
+                            Heal
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Intimidate">
+                        <label class="form-check-label" for="Intimidate">
+                            Intimidate
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Knowledge (Arcana)">
+                        <label class="form-check-label" for="Knowledge(Arcana)">
+                        Knowledge(Arcana)
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Knowledge(Dungeoneering)">
+                        <label class="form-check-label" for="Knowledge(Dungeoneering)">
+                        Knowledge(Dungeoneering)
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Knowledge(Engineering)">
+                        <label class="form-check-label" for="Knowledge(Engineering)">
+                        Knowledge(Engineering)
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Knowledge(History)">
+                        <label class="form-check-label" for="Knowledge(History)">
+                        Knowledge(History)
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Knowledge(Local)">
+                        <label class="form-check-label" for="Knowledge(Local)">
+                        Knowledge(Local)
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Knowledge(Nature)">
+                        <label class="form-check-label" for="Knowledge(Nature)">
+                        Knowledge(Nature)
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Knowledge(Nobility)">
+                        <label class="form-check-label" for="Knowledge(Nobility)">
+                        Knowledge(Nobility)
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Knowledge(Planes)">
+                        <label class="form-check-label" for="Knowledge(Planes)">
+                        Knowledge(Planes)
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Knowledge(Religion)">
+                        <label class="form-check-label" for="Knowledge(Religion)">
+                        Knowledge(Religion)
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Linguistics">
+                        <label class="form-check-label" for="Linguistics">
+                            Linguistics
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Perception">
+                        <label class="form-check-label" for="Perception">
+                            Perception
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Perform">
+                        <label class="form-check-label" for="Perform">
+                            Perform
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Profession">
+                        <label class="form-check-label" for="Profession">
+                            Profession
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Ride">
+                        <label class="form-check-label" for="Ride">
+                            Ride
+                        </label>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Sense Motive">
+                        <label class="form-check-label" for="Sense Motive">
+                            Sense Motive
+                        </label>
+                    </div>
+                </section>
+            </section>
+            <section class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Sleight of Hand">
+                    <label class="form-check-label" for="Sleight of Hand">
+                        Sleight of Hand
+                    </label>
+                </div>
+            </section>
+            <section class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Spellcraft">
+                    <label class="form-check-label" for="Spellcraft">
+                        Spellcraft
+                    </label>
+                </div>
+            </section>
+            <section class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Stealth">
+                    <label class="form-check-label" for="Stealth">
+                        Stealth
+                    </label>
+                </div>
+            </section>
+            <section class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Survival">
+                    <label class="form-check-label" for="Survival">
+                        Survival
+                    </label>
+                </div>
+            </section>
+        </section>
+        <section class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="Swim">
+                <label class="form-check-label" for="Swim">
+                    Swim
+                </label>
+            </div>
+        </section>
+        <section class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="Use Magic Device">
+                <label class="form-check-label" for="Use Magic Device">
+                    Use Magic Device
+                </label>
+            </div>
+        </section>
+        
             </div>
         </div>
 
